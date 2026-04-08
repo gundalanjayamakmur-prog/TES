@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Bioskop Mini</title>
+  <link rel="stylesheet" href="bioskop.css">
+</head>
+<body>
+
+<h1>🎬 Booking Tiket Bioskop Mini</h1>
+
+<!-- SEARCH FILM -->
+<input type="text" id="search" placeholder="Cari film..." onkeyup="cariFilm()">
+
+
+<!-- PILIH FILM -->
+<h2>Pilih Film</h2>
+<div class="film-container">
+
+  <label class="film">
+    <img src="Apollo.jpg">
+    <p>Apollo 10½: A Space Age Childhood (2022)</p>
+    <input type="radio" name="film" value="Apollo 10½: A Space Age Childhood (2022)">
+  </label>
+
+  <label class="film">
+    <img src="dog-man.jpg">
+    <p>Dog Man (2025)</p>
+    <input type="radio" name="film" value="Dog Man (2025)">
+  </label>
+
+  <label class="film">
+    <img src="mcdchru.jpg">
+    <p>Chicken Run (2000)</p>
+    <input type="radio" name="film" value="Chicken Run (2000)">
+  </label>
+
+  <label class="film">
+    <img src="grave-of-the-fireflies.jpg">
+    <p>Grave of the Fireflies (1988)</p>
+    <input type="radio" name="film" value="Grave of the Fireflies (1988)">
+  </label>
+
+  <label class="film">
+    <img src="PINOCCHIO.jpg">
+    <p>Guillermo del Toro's Pinocchio (2022)</p>
+    <input type="radio" name="film" value="Guillermo del Toro's Pinocchio (2022)">
+  </label>
+
+  <label class="film">
+    <img src="ilmb.jpg">
+    <p>I Lost My Body (2019)</p>
+    <input type="radio" name="film" value="I Lost My Body (2019)">
+  </label>
+
+  <label class="film">
+    <img src="NETFLIX_KLAUS.jpg">
+    <p>Klaus (2019)</p>
+    <input type="radio" name="film" value="Klaus (2019)">
+  </label>
+
+  <label class="film">
+    <img src="kpop-demon.jpg">
+    <p>KPop Demon Hunters (2025)</p>
+    <input type="radio" name="film" value="KPop Demon Hunters (2025)">
+  </label>
+
+  <label class="film">
+    <img src="kubo-and-the-two.jpg">
+    <p>Kubo and the Two Strings (2016)</p>
+    <input type="radio" name="film" value="Kubo and the Two Strings (2016)">
+  </label>
+
+  <label class="film">
+    <img src="kung-fu-panda.jpg">
+    <p>Kung Fu Panda (2008)</p>
+    <input type="radio" name="film" value="Kung Fu Panda (2008)">
+  </label>
+
+  <label class="film">
+    <img src="leo.jpg">
+    <p>Leo (2023)</p>
+    <input type="radio" name="film" value="Leo (2023)">
+  </label>
+
+  <label class="film">
+    <img src="NETFLIX_THE-MITCHELLS.jpg">
+    <p>The Mitchells vs. the Machines (2021)</p>
+    <input type="radio" name="film" value="The Mitchells vs. the Machines (2021)">
+  </label>
+
+  <label class="film">
+    <img src="nimona.jpg">
+    <p>Nimona (2023)</p>
+    <input type="radio" name="film" value="Nimona (2023)">
+  </label>
+  
+  <label class="film">
+    <img src="orion.jpg">
+    <p>Orion and the Dark (2024)</p>
+    <input type="radio" name="film" value="Orion and the Dark (2024)">
+  </label>
+
+  <label class="film">
+    <img src="Over_The_Moon.jpg">
+    <p>Over the Moon (2020)</p>
+    <input type="radio" name="film" value="Over the Moon (2020)">
+  </label>
+
+  <label class="film">
+    <img src="The_Sea_Beast.jpg">
+    <p>The Sea Beast (2022)</p>
+    <input type="radio" name="film" value="The Sea Beast (2022)">
+  </label>
+
+  <label class="film">
+    <img src="FARMAGEDDON.jpg">
+    <p>A Shaun the Sheep Movie: Farmageddon (2019)</p>
+    <input type="radio" name="film" value="A Shaun the Sheep Movie: Farmageddon (2019)">
+  </label>
+
+  <label class="film">
+    <img src="Suzume.jpg">
+    <p>Suzume (2022)</p>
+    <input type="radio" name="film" value="Suzume (2022)">
+  </label>
+
+  <label class="film">
+    <img src="Teenage-Mutant-Ninja.jpg">
+    <p>Teenage Mutant Ninja Turtles: Mutant Mayhem (2023)</p>
+    <input type="radio" name="film" value="Teenage Mutant Ninja Turtles: Mutant Mayhem (2023">
+  </label>
+
+  <label class="film">
+    <img src="NETFLIX_VIVO.jpg">
+    <p>Vivo (2021)</p>
+    <input type="radio" name="film" value="Vivo (2021)">
+  </label>
+
+  <label class="film">
+    <img src="wallace-gromit-vengeance-most.jpg">
+    <p>Wallace & Gromit: Vengeance Most Fowl (2024)</p>
+    <input type="radio" name="film" value="Wallace & Gromit: Vengeance Most Fowl (2024)">
+  </label>
+
+  <label class="film">
+    <img src="NETFLIX_A-Whisker-Away.jpg">
+    <p>A Whisker Away (2020)</p>
+    <input type="radio" name="film" value="A Whisker Away (2020)">
+  </label>
+  
+  <label class="film">
+    <img src="the-wild-robot17.jpg">
+    <p>The Wild Robot (2024)</p>
+    <input type="radio" name="film" value="The Wild Robot (2024)">
+  </label>
+
+  <label class="film">
+    <img src="film-robin-robin.jpg">
+    <p>Robin Robin (2021)</p>
+    <input type="radio" name="film" value="Robin Robin (2021)">
+  </label>
+
+  <label class="film">
+    <img src="film-the-mitchells.jpg">
+    <p>The Mitchells vs. the Machines (2021)</p>
+    <input type="radio" name="film" value="The Mitchells vs. the Machines (2021)">
+  </label>
+
+  <label class="film">
+    <img src="poster-film-puss-in-boots.jpg">
+    <p>Puss in Boots: The Last Wish (2023)</p>
+    <input type="radio" name="film" value="Puss in Boots: The Last Wish (2023)">
+  </label>
+
+  <label class="film">
+    <img src="film-spider-man-across-the-spider-verse-2023foto-netflix.jpg">
+    <p>Spider-Man: Across the Spider-Verse (2023)</p>
+    <input type="radio" name="film" value="Spider-Man: Across the Spider-Verse (2023)">
+  </label>
+
+  <label class="film">
+    <img src="film-nimona-2023.jpg">
+    <p>Nimona (2023)</p>
+    <input type="radio" name="film" value="Nimona (2023)">
+  </label>
+
+
+
+
+</div>
+
+<!-- JUMLAH ORANG -->
+<div class="box">
+  <label>Jumlah Penonton:</label>
+  <input type="number" id="jumlah" min="1" value="1">
+</div>
+
+<!-- HARGA -->
+<div class="box">
+  <p>Harga Tiket: <b>Rp 15.000 / orang</b></p>
+  <p>Total: <span id="total">Rp 15.000</span></p>
+</div>
+
+<!-- METODE PEMBAYARAN -->
+<div class="box">
+  <label>Pilih Pembayaran:</label>
+  <select id="pembayaran">
+    <option value="">-- Pilih --</option>
+    <option value="ewallet">E-Wallet</option>
+    <option value="bank">Transfer Bank</option>
+    <option value="qris">QRIS</option>
+    <option value="cash">Cash</option>
+  </select>
+</div>
+
+<!-- DETAIL PEMBAYARAN -->
+<div id="detailPembayaran" class="box"></div>
+
+<!-- UPLOAD BUKTI -->
+<div class="box">
+  <label>Upload Bukti Pembayaran (opsional):</label>
+  <input type="file" id="bukti">
+</div>
+
+<!-- BUTTON -->
+<button onclick="booking()">Booking Sekarang</button>
+
+<script src="bioskop.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+.film-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.film {
+  background: #1c1c1c;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.film img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.film input {
+  margin-top: 10px;
+}
+
+.box {
+  margin: 15px auto;
+}
+
+button {
+  padding: 12px 25px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#detailPembayaran img {
+  width: 150px;
+  margin-top: 10px;
+}
